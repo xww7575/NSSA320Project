@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+
+# Secrets / keys
+*.pem
+id_rsa*
+*.key
+vault-password*
+.vault_pass*
